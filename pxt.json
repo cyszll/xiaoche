@@ -1,0 +1,26 @@
+{
+    "name": "test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "遥控舞蹈": "pkg:遥控舞蹈.json"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "遥控舞蹈.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ]
+}
